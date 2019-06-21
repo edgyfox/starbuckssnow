@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Starbucks M2m Starbucks Dr Starbucks" max_length="40" name="x_350782_starbucks_m2m_starbucks_dr_starbucks" type="collection">
+        <element label="Starbucks" max_length="32" name="starbucks" reference="x_350782_starbucks_starbucks" type="reference"/>
+        <element label="Starbucks Drinks" max_length="32" name="starbucks_drinks" reference="x_350782_starbucks_starbucks_drinks" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="tall" label="Size" max_length="40" name="u_size" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Tall" sequence="0" value="tall"/>
+                <element inactive_on_update="false" label="Grande" sequence="1" value="grande"/>
+                <element inactive_on_update="false" label="Venti" sequence="2" value="venti"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="starbucks"/>
+        </index>
+        <index name="index2">
+            <element name="starbucks_drinks"/>
+        </index>
+    </element>
+</database>

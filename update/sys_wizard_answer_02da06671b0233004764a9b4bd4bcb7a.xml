@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Starbucks</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Starbucks</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">0378e6b664232300aadba650cb85d4bf</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-21 07:58:14</sys_created_on>
+        <sys_id>02da06671b0233004764a9b4bd4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Starbucks</sys_name>
+        <sys_package display_value="Starbucks Management" source="x_350782_starbucks">0103d2531bc233004764a9b4bd4bcb6d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Starbucks Management">0103d2531bc233004764a9b4bd4bcb6d</sys_scope>
+        <sys_update_name>sys_wizard_answer_02da06671b0233004764a9b4bd4bcb7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-21 07:58:14</sys_updated_on>
+        <table/>
+        <target_url>x_350782_starbucks_starbucks.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
